@@ -15,6 +15,8 @@ describe('index.js', function() {
     });
   });
 
+
+
   describe('distanceFromHqInFeet()', function() {
     it('returns a distance in feet', function() {
       expect(distanceFromHqInFeet(43)).to.equal(264);
@@ -28,6 +30,8 @@ describe('index.js', function() {
       expect(distanceFromHqInFeet(34)).to.equal(2112);
     });
   });
+
+
 
   describe('distanceTravelledInFeet()', function() {
     it('returns the distance travelled in feet', function() {
@@ -43,6 +47,8 @@ describe('index.js', function() {
     });
   });
 
+
+  
   describe('calculatesFarePrice(start, destination)', function() {
     it('gives customers a free sample', function() {
       expect(calculatesFarePrice(43, 44)).to.equal(0);
